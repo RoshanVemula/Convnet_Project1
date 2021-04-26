@@ -7,7 +7,7 @@ Car Brand Classification
 
 # About the Project
 
-A simple web app using Flask framework which predicts the car brand upon uploading the car image. In this project I have trained the model using images of Audi, Lambhorgini and Mercedes. The model is build using one of the transfer learning methods, Resnet50 architecture. 
+A simple web app using Flask framework which predicts the car brand upon uploading the car image. In this project I have trained the model using images of Audi, Lambhorgini and Mercedes. The model is build using one of the transfer learning methods, Resnet50 architecture. The web app is created using Flask architecture, html and css. Later the app is deployed into cloud based platform Heroku.
 
 ## Technologies
 * Python
@@ -42,3 +42,9 @@ To run this project, anaconda (the latest version). Install the above mentioned 
 * Before installing packages make sure to have latest version of pip installed in the system. To install pip, open command prompt > type command > "pip install pip"
 * To install a python package, open conda prompt > type the command > " pip install package_name "
 * The alternate method is, open command prompt> type the command> " pip install package_name "
+
+## Running the Web App
+
+* Open Conda prompt and type cd (path of the flask app.py file)
+* Now after changing the directory type python app.py
+* You will get a url at end copy and paste in the google to view the app
