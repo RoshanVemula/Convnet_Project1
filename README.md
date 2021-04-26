@@ -47,4 +47,4 @@ To run this project, anaconda (the latest version). Install the above mentioned 
 
 * Open Conda prompt and type cd (path of the flask app.py file)
 * Now after changing the directory type python app.py
-* You will get a url at end copy and paste in the google to view the app
+* You will get an url at the end, copy and paste it in the google to view the app.
