@@ -41,7 +41,8 @@ A simple web app using Flask framework which predicts the car brand upon uploadi
 To run this project, anaconda (the latest version). Install the above mentioned python packages. 
 * Before installing packages make sure to have latest version of pip installed in the system. To install pip, open command prompt > type command > "pip install pip"
 * To install a python package, open conda prompt > type the command > " pip install package_name "
-* The alternate method is, open command prompt> type the command> " pip install package_name "
+* The alternate method is, simply run requirements.txt.This will take care of all the packages needed to be installed. This may take some time.
+* open command prompt> type the command> " pip requirements.txt "
 
 ## Running the Web App
 
