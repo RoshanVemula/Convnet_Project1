@@ -18,6 +18,8 @@ A simple web app using Flask framework which predicts the car brand upon uploadi
 * [tensorflow](https://www.tensorflow.org/install)
 * [matplotlib](https://pypi.org/project/matplotlib/)
 * [pip](https://pypi.org/project/pip/)
+* [Anaconda](https://www.anaconda.com/products/individual)
+* [Flask](https://pypi.org/project/Flask/)
 
 ## Versions
 * Python 3.8
@@ -25,3 +27,18 @@ A simple web app using Flask framework which predicts the car brand upon uploadi
 * numpy 1.19.4
 * tensorflow 2.4.1
 * matplotlib 3.3.2
+* Anconda 4.9.2
+* Flask 1.1.2
+
+## Setup
+##### System Requirements
+* 64 bit operating System
+* 4gb RAM
+* 250GB ROM (Optional)
+* 1.06 GHz Processor (Minimum)
+* Latest version of pip
+
+To run this project, anaconda (the latest version). Install the above mentioned python packages. 
+* Before installing packages make sure to have latest version of pip installed in the system. To install pip, open command prompt > type command > "pip install pip"
+* To install a python package, open conda prompt > type the command > " pip install package_name "
+* The alternate method is, open command prompt> type the command> " pip install package_name "
