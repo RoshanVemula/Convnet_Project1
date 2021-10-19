@@ -41,17 +41,17 @@ def model_predict(img_path, model):
 
    
 
-    preds = model.predict(x)
-    preds=np.argmax(preds, axis=1)
-    if preds==0:
-        preds="The Car IS Audi"
-    elif preds==1:
-        preds="The Car is Lamborghini"
+    predt = model.predict(x)
+    predt=np.argmax(predt, axis=1)
+    if predt==0:
+        predt="The Car IS Audi"
+    elif predt==1:
+        predt="The Car is Lamborghini"
     else:
-        preds="The Car Is Mercedes"
+        predt="The Car Is Mercedes"
     
     
-    return preds
+    return predt
 
 
 @app.route('/', methods=['GET'])
@@ -73,8 +73,8 @@ def upload():
         f.save(file_path)
 
         # Make prediction
-        preds = model_predict(file_path, model)
-        result=preds
+        predt = model_predict(file_path, model)
+        result=predt
         return result
     return None
 
