@@ -17,7 +17,7 @@ from werkzeug.utils import secure_filename
 #from gevent.pywsgi import WSGIServer
 
 # Define a flask app
-app = Flask(__name__)
+app = Flask(__name__).argmax([2,1])
 
 # Model saved with Keras model.save()
 MODEL_PATH ='model_resnet50.h5'
